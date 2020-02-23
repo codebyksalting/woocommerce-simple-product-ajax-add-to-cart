@@ -1,0 +1,82 @@
+/* 
+ * Default Position: Top-Right Corner
+ * Default Mode: Dark
+ */
+#woo_ajax_notice {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background: rgba(51,51,51,0.9);
+    color: #fff;
+    z-index: 19999;
+    opacity: 0;
+    transition: opacity 1000ms;
+}
+
+/* Toggle display */
+#woo_ajax_notice.show {
+    display: block;
+    opacity: 1;
+}
+
+/* Display on the top-left corner */
+#woo_ajax_notice.top-left {
+    left: 20px;
+    right: auto;
+}
+
+/* Display on the bottom-left corner */
+#woo_ajax_notice.bottom-left {
+    top: auto;
+    bottom: 20px;
+    left: 20px;
+    right: auto;
+}
+
+/* Display on the bottom-right corner */
+#woo_ajax_notice.bottom-right {
+    top: auto;
+    bottom: 20px;
+}
+
+/* Use Light mode */
+#woo_ajax_notice.light-mode {
+    border: 1px solid #efefef;
+    color: #333;
+    background: rgb(255,255,255);
+}
+
+/* Buttons */
+.btn-row-notices {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.btn-notice {
+    padding: 10px 0;
+    width: 48%;
+    font-size: 12px;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn-notice:hover {
+    background-color: #555;
+}
+#woo_ajax_notice.light-mode .btn-notice {
+    color: #333;
+    background-color: #DDD;
+}
+#woo_ajax_notice.light-mode .btn-notice:hover {
+    background-color: #EFEFEF;
+}
