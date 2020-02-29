@@ -16,4 +16,4 @@ This plugin enables Ajax on the product details page Add to Cart button. The plu
 - https://wisdmlabs.com/blog/create-settings-options-page-for-wordpress-plugin/
 
 ## Buy Me Coffee
-https://ko-fi.com/codebyksalting
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7U51FKQT)
