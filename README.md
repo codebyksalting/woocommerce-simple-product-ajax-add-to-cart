@@ -3,10 +3,6 @@
 ## Description
 This plugin enables Ajax on the product details page Add to Cart button. The plugin only works with Simple and Variable product types. Grouped products will follow the default WooCommerce behavior.
 
-## Demo
-- **Simple Product:** http://oneskyoneground.com/practice/design-01/product/ship-your-idea/
-- **Variable Product:** http://oneskyoneground.com/practice/design-01/product/ship-your-idea/
-
 ## Purpose
 - To practice Vanilla JS
 - To practive WooCommerce plugin development with Ajax
